@@ -8,3 +8,6 @@
     color: orange;
     text-align: center;
 }
+#result{
+    border:1px dotted olivedrab;
+}
