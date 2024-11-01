@@ -13,13 +13,13 @@
     </div>
     <div id="banner"></div>
     <div id="inputs">
-        <label for="inputX" title="Enter X Value:"></label>
+        <label for="inputX" title="Enter X Value:"> Enter X Value:</label>
         <input id="inputX" type="text" placeholder="X Value">
         
-        <label for="inputY" title="Enter Y Value:"></label>
+        <label for="inputY" title="Enter Y Value:">Enter Y Value:</label>
         <input id="inputY" type="text" placeholder="Y Value">
-        <button type="button" onclick="sum(inputX,inputY)">Sum</button>
-
+        <button type="button" onclick="sum(document.getElementById('inputX').value,document.getElementById('inputY').value)">Sum</button>
+        <p id="result"></p>
     </div>
 </body>
 </html>
